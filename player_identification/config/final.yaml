@@ -1,0 +1,185 @@
+{
+  "version": "B_top20_scalefree_pairs",
+  "base": "05_private_validated",
+  "weights": {
+    "anchor_scaled:collective/cohort": [
+      0.43513198,
+      0.41920377
+    ],
+    "decisions": [
+      0.1467806,
+      0.0681755
+    ],
+    "domain_adapt/opening_anchor": [
+      2.05031328,
+      1.61973112
+    ],
+    "end_profiles": [
+      0.0,
+      0.00176196
+    ],
+    "engine_only:engine_moves/human": [
+      0.11298059,
+      0.17910187
+    ],
+    "engine_only:engine_search": [
+      0.16365446,
+      0.00096264
+    ],
+    "engine_only:engine_search/fox_set": [
+      0.25140077,
+      0.06803555
+    ],
+    "engine_only:engine_sequence": [
+      0.02760626,
+      0.01846335
+    ],
+    "engine_only:engine_sequence/long": [
+      0.04252464,
+      0.0
+    ],
+    "engine_only:neuralmatch/late_residual_fox": [
+      1.2782411,
+      1.18870765
+    ],
+    "engine_only:neuralmatch/moves_patches": [
+      0.23389855,
+      0.25938695
+    ],
+    "engine_only:strength": [
+      0.00062832,
+      0.0
+    ],
+    "episodic/joint": [
+      0.64172218,
+      0.71879164
+    ],
+    "facets/native": [
+      0.32239156,
+      0.12011326
+    ],
+    "facets/unseen": [
+      1.2152673,
+      1.24919557
+    ],
+    "fresh_match": [
+      0.01325317,
+      0.00123643
+    ],
+    "human_trunk/d18": [
+      0.25239849,
+      0.19085616
+    ],
+    "human_trunk/d18_views": [
+      0.42603503,
+      0.32154668
+    ],
+    "human_trunk/fox_joint_views": [
+      0.80034016,
+      0.56580449
+    ],
+    "human_trunk/turn_match": [
+      0.02310721,
+      0.0
+    ],
+    "metadata": [
+      0.58191268,
+      0.51167924
+    ],
+    "moves_distill": [
+      0.28650654,
+      0.22389499
+    ],
+    "moves_fox": [
+      0.11098297,
+      0.06136632
+    ],
+    "moves_fox_episode": [
+      0.37436964,
+      0.33093505
+    ],
+    "neuralmatch/moves": [
+      0.00082268,
+      0.00091158
+    ],
+    "neuralmatch/moves_board": [
+      0.000223,
+      0.00018877
+    ],
+    "neuralmatch/moves_deep": [
+      0.34527095,
+      0.29820985
+    ],
+    "neuralmatch/moves_fox": [
+      0.12790439,
+      0.11852772
+    ],
+    "opening_book": [
+      0.69954625,
+      0.61205442
+    ],
+    "opponents/strength": [
+      0.02380168,
+      0.00695066
+    ],
+    "plda40": [
+      0.17752308,
+      0.12259266
+    ],
+    "replies": [
+      0.24222993,
+      0.2056399
+    ],
+    "setmatch/e4": [
+      0.27393696,
+      0.28019171
+    ],
+    "stacker_moves": [
+      0.61974278,
+      0.49630292
+    ],
+    "style_policy": [
+      0.00143261,
+      0.00107491
+    ],
+    "support_adapt/moves": [
+      0.00641699,
+      0.00572374
+    ]
+  },
+  "shortlist": 20,
+  "l2": 0.01,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 300,
+  "train_pools": [
+    "main_validation",
+    "engine_validation_0",
+    "engine_validation_1",
+    "engine_validation_2",
+    "main_holdout",
+    "engine_holdout_0",
+    "engine_holdout_1",
+    "engine_holdout_2"
+  ],
+  "sha256": "027f7ad8ff2483a96ee051ae0537241101846de90f96ed1683e7d3de86b91459",
+  "old_recipe": [
+    0.5,
+    0.0
+  ],
+  "old_tau": 0.05,
+  "official_inputs": {
+    "player_identification_candidates2_private.csv": "8e80f94689284722bd21a3f3306c476ee78aead60a4061e74a0f8aaaede36812",
+    "player_identification_candidates2_public.csv": "ac3d7d20d1a19ee7e670638b556f5c3cc021904ca4e1644bc0d0bcec4ff6616d",
+    "player_identification_candidates_private.csv": "db2cfe33be9c1e36355fac5664b758909ef80bce1be257e55bae056fba40d963",
+    "player_identification_candidates_public.csv": "e662242cb0f0b2be2009c129abd291c9c852af7fae25d8f1e1c00208785ee24d",
+    "player_identification_test2_private.csv": "52e01bcc508e3e350f47b6430a7c841531976ac4a9d294fc2328b4570ca8a527",
+    "player_identification_test2_public.csv": "33485b58da29a43d53526f9f83d92ebdc4610948cb0f5249e07bba5cbdd53d6a",
+    "player_identification_test_private.csv": "eedd2630731070633dfa264897ac739aec03879f90ac57149bba033d9bd53dee",
+    "player_identification_test_public.csv": "fbf6f14de57bc37bbec6e3d732143a2561887d37b1f36271223ad1a14810ac74",
+    "sample_submission_player_v2.csv": "70bf0e3cd31ce8aa0ad438c576f77b3f8c0ca3a49a8089bd026108ad3ba26c9c"
+  }
+}

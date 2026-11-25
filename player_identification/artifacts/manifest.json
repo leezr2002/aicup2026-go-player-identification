@@ -1,0 +1,1640 @@
+{
+ "release": {
+  "repository": "leezr2002/aicup2026-go-player-identification",
+  "tag": "v1.0",
+  "url": "https://github.com/leezr2002/aicup2026-go-player-identification/releases/download/v1.0/"
+ },
+ "bundles": {
+  "inference": {
+   "asset": "player-artifacts-inference.zip",
+   "bytes": 474369361,
+   "sha256": "c936b4423c075290a969bf7d78aa1d690f8b335ff6b0ada07aed818409d5a215",
+   "purpose": "Required: reproduce the submitted CSV with acceptance.py",
+   "unpacked_bytes": 583748471,
+   "files": {
+    "player_identification/artifacts/embeddings/priv/seq64.npy": {
+     "bytes": 46080128,
+     "sha256": "cf2a64497ae58f560be6d36f23f1645776574fcc60332c7ba1468db94ed80d62"
+    },
+    "player_identification/artifacts/embeddings/priv/seq64_s2.npy": {
+     "bytes": 46080128,
+     "sha256": "5bf5dfcf7752ccbe62df3fd1b2f27a1d8eabdb3d8c710ed552d19515ce4dfbbb"
+    },
+    "player_identification/artifacts/embeddings/priv/wide.npy": {
+     "bytes": 46080128,
+     "sha256": "1189221598bfa74e109050f611f5028b75c26a4bc83a46870f50c51abd99b6e3"
+    },
+    "player_identification/artifacts/embeddings/priv/wide_s2.npy": {
+     "bytes": 46080128,
+     "sha256": "b2198eec7f80df0f3d3d4946a1d0b37afdefb2d99034cd342a17c3b0fe5314bb"
+    },
+    "player_identification/artifacts/embeddings/priv2/seq64.npy": {
+     "bytes": 7270528,
+     "sha256": "ae709ee2ebe372083b77c6ced7621c5080c61a2014f31a6cef39a0a88dd0c8ee"
+    },
+    "player_identification/artifacts/embeddings/priv2/seq64_s2.npy": {
+     "bytes": 7270528,
+     "sha256": "810dd3a9eb7eb7f29a688c9abf555ae3715c5751dba5896a69d3218f638cb4c8"
+    },
+    "player_identification/artifacts/embeddings/priv2/wide.npy": {
+     "bytes": 7270528,
+     "sha256": "98d7b3a4fe69290aad5a921e800aaeff94261d7042b531b0f3a6abc2ee53b232"
+    },
+    "player_identification/artifacts/embeddings/priv2/wide_s2.npy": {
+     "bytes": 7270528,
+     "sha256": "b0ce886d70814cd0c9fb9eb19291f4676b939dab95d09cb230429624f5d9845d"
+    },
+    "player_identification/artifacts/embeddings/pub/seq64.npy": {
+     "bytes": 46080128,
+     "sha256": "afd676dc125f22b4a4c6be4e4d6036b71b0cc2c7c5000b3e019972702e3d5e95"
+    },
+    "player_identification/artifacts/embeddings/pub/seq64_s2.npy": {
+     "bytes": 46080128,
+     "sha256": "6d0a255299d773cf58fb9b12fc9dbc89b17c20c513c3ed51b5c33a59856e484a"
+    },
+    "player_identification/artifacts/embeddings/pub/wide.npy": {
+     "bytes": 46080128,
+     "sha256": "9fb45b7771acf656218a2a2134553c2d199e6da5c848cb52a582da9d133af66c"
+    },
+    "player_identification/artifacts/embeddings/pub/wide_s2.npy": {
+     "bytes": 46080128,
+     "sha256": "013f98d6b72a0b492e574b71e2b8a74d7ad778180b6c9553e79315036345b52a"
+    },
+    "player_identification/artifacts/embeddings/pub2/seq64.npy": {
+     "bytes": 7270528,
+     "sha256": "194562338a11c0aef1af03b4c505af6c710398a1e281e9dc9dcf84d7a40fbb29"
+    },
+    "player_identification/artifacts/embeddings/pub2/seq64_s2.npy": {
+     "bytes": 7270528,
+     "sha256": "5cb682bd8cd81fa1cb9627adeae82c9804d8007316b865ec39742c7c9ebade6f"
+    },
+    "player_identification/artifacts/embeddings/pub2/wide.npy": {
+     "bytes": 7270528,
+     "sha256": "52b15ad8f42762167d80ec0b1fad4283d396fd4785d04b45e02e2ab8b9c85ac6"
+    },
+    "player_identification/artifacts/embeddings/pub2/wide_s2.npy": {
+     "bytes": 7270528,
+     "sha256": "04df89f3f167ce5cf4b327de0a7088285ebcdb10b6de4c95fd6c68e5642d8e51"
+    },
+    "player_identification/artifacts/experts/baseline/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "4af58635bb60e081f7c74eeac4a13379434cdb24ec0bfedd58cc2529a22bc1f8"
+    },
+    "player_identification/artifacts/experts/baseline/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "7cde1840c66aa6e350ae868d3a99fe5436dfce33c18050745f3995abd5bc2a88"
+    },
+    "player_identification/artifacts/experts/collective/cohort/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "b8cafe8ac6a2e14b1742e249d29fa153d2c7c5c90d7999d404e89699f757ea83"
+    },
+    "player_identification/artifacts/experts/collective/cohort/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "4b3da094da2fb4563aa14747636da1c9811c3f4c61cf8547d7df820c1ba3e0fa"
+    },
+    "player_identification/artifacts/experts/decisions/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "eadbbb78c06f451ea3a5c58abe06be007e68e58e2096d54c6c1df1b2f7567648"
+    },
+    "player_identification/artifacts/experts/decisions/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "9658a6d4410efe5186cbfcc7f91a72acaa03d2372c644845dda1f765112d7309"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "7f73bc89ba5a7a14f6706d7e938b30077f00ac31f632e92766657ce9bbcb70c4"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "6a4069e3387a437e06ab2d92338757f707326952bdfb42fc0b03dd1620b7572d"
+    },
+    "player_identification/artifacts/experts/end_profiles/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "3d60b3f2bb83e8e998c1ececbbf7b26783cf92e7e1708d64e46990d641e19429"
+    },
+    "player_identification/artifacts/experts/end_profiles/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "24044d2823fd56091b177ecc51c99bb6705ae510921217315bc14457da3a657d"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/priv2.npz": {
+     "bytes": 1020782,
+     "sha256": "958dd504f0ebca7edabff20fdf1c63ff30fa87a6f2f43b77404f77e05d61715d"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/pub2.npz": {
+     "bytes": 1016782,
+     "sha256": "77dab21eadbdca93ddc7dd08907537505f972e2352646d6d4ee35258c8bae4de"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "152c7015b678c850076f362ffed2bafea7120f74c23cc538626248459111a873"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "b8b32df8b62502bd603fbdf436d0cb8d735d6fd078412907cf55452a414d28c6"
+    },
+    "player_identification/artifacts/experts/engine_search/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "1659681ba971702778401805461411ee1ddf32210d9788f330e77f4b916cf17a"
+    },
+    "player_identification/artifacts/experts/engine_search/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "596db5a7a4f24eeca104902aabfb0def34f424cd75233385493b85c90dd9c659"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "085562bd7af7b20d234165cabb50885ec952b98ed23b29fc9c2d3fe0bb7df743"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "fac1725a72b2e04289deb6a43722234edb92691d4140c5662397fa8083739291"
+    },
+    "player_identification/artifacts/experts/engine_sequence/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "2e9d39af2ed49eea1c63131531f7512479c419705dbb671217a4f757fdb4cae2"
+    },
+    "player_identification/artifacts/experts/engine_sequence/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "1cc53dd291ec0f1ae29121421d8eb1cc0ce637358bb52d0f726279b905bbf3a1"
+    },
+    "player_identification/artifacts/experts/episodic/joint/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "17f540a95326a7465100046ff244c393fbec5fb14b9a2cb13b70eb3c3fb7f5dd"
+    },
+    "player_identification/artifacts/experts/episodic/joint/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "b4dede546ec56ef5818602dcb39c62b22958094beb8d227ae28a67d1526d03d0"
+    },
+    "player_identification/artifacts/experts/facets/native/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "86ed1b0a48444bff38b47cd7dfb5bc2b9bb52b921856e2beb8ae7ef7f2109518"
+    },
+    "player_identification/artifacts/experts/facets/native/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "8da9a52f9821132cf13fa05fe5e0656b9dec12639dd9199994a1a7cc92817606"
+    },
+    "player_identification/artifacts/experts/facets/unseen/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "8473ac4fe4132c4c75256d8e653c09be53e8773ad35728aa01bb8480f51ffb90"
+    },
+    "player_identification/artifacts/experts/facets/unseen/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "009ae013e9b7df30df26228b3c603da97230b0163ef2fc49aace2d31560022de"
+    },
+    "player_identification/artifacts/experts/fresh_match/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "7a155705022c0e8e068255a82bb999b58a4da81c15d583eeed692f911d3fe7a3"
+    },
+    "player_identification/artifacts/experts/fresh_match/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "8991f6cc8a9cc02f951ede3bbd01e251d45e25170169492d5dc8b9ab228bab85"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "29642505a9f98b02b865070ff758cd7156471671dd1b8d15cf1aa5f56495d104"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "d1f9eb1e9d7989108a5f34f194ce4ea9f79aa6c05c8975458f2f012a8bfe6b1c"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "4ab9187e222f17677b2268831989cc143e154e50110c6c86750fd2b323ca955d"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "a6a035d230064422b98847d1552fe22eb6a5be19b41efc6a5c699dba37b2869c"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "ab73db2f2c165801b4435d63f26810c986d452d33eb3f6301f3b86adc5216d83"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "7ac9590afc9bd6820467677f96e3b501f3d749c153f09f92a29fd2cacb07a0e2"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "6a595bd389dbcc255ed150ecfe28f4860a92e62121f7d1835350450e39d87d06"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "c670d52c99c003c1cbe268adecb632e54739fcf00f79e0b5800a2f252c57d8d0"
+    },
+    "player_identification/artifacts/experts/metadata/priv2.npz": {
+     "bytes": 463486,
+     "sha256": "696ca5dadbf65ff4171046a1a8167ad70e8b568b2bdf190b5ebb98858c6dc329"
+    },
+    "player_identification/artifacts/experts/metadata/pub2.npz": {
+     "bytes": 463187,
+     "sha256": "85ee9046ed91875775569012c8108e9cfe21cf48adf48082d6f9c7c9effba714"
+    },
+    "player_identification/artifacts/experts/moves_distill/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "1701d8fa2ffb659c3675579f533ca8f83e371d24ae32658123c0667af7103265"
+    },
+    "player_identification/artifacts/experts/moves_distill/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "a62b09564029e1a4959f61e1404f5949e7c358ac7f0febffa482b474989f86c2"
+    },
+    "player_identification/artifacts/experts/moves_fox/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "a886e7d2bfc46e1970b9d199113b305ee8ad4573e2073e27f06ed07c98c7c50e"
+    },
+    "player_identification/artifacts/experts/moves_fox/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "e19e9a20ab4ff669af5cd5ccdde2edeffd9ec2b0c114f66f5de35471cba00460"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "e12c069e13aa839bde59f1c0bce06e4648fd511d2f23da1fc3f77a27e59e542d"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "dbf9184b9b9ba022d6295f35c6e2c56ce7327489c09bf50727d178cb9cdfed71"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "59051928a3434ce1469c5d3b30ad14ceabb94aba9de2dca279124c1a2beba49c"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "54574e58a43beec652b06527f0887888fc654802ad8c4254c502ec4aedcf6c12"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "b1b796af4501a8a70adb587479b85a3e96e54970d3678bdf9c7c8333c9efdd7c"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "02a4dcb39b400e9b9137779155bfc0bc70f6e202622c2840e3ad439e8ae4636b"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "ae38ef242988f279cfd53799cf5306b77409b1b491c918462e7331061e4d4d4b"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "a58b24a7438ac9bafb13b2136952673e9d010329c627d8cb9d52dd7734045fdf"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "8ad0b960a839b1f00a0ae938768c89caff4b6c266e4176acf262be2964dd7ff2"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "d6c60751a7d04b4168ab1d2c82d6d023003e6a8902aeb92e0d27e5448a799ef9"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "9a1fd71e8ea4381ab6a3abf35214331c3edb745d4d15b26c84a3820e00139f23"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "cd26abca07862006fe2c89624c4a4acb04d1ee86e4f554cde21893ed060bb328"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "376bcb48ca5bb897a971ff0336719c7483c6891bd597f40dcb0459025e1706ef"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "45c40e1fccd03685f3d5e8a8e538fa675a617504c6e3159a9a6913696dbc83c7"
+    },
+    "player_identification/artifacts/experts/opening_book/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "f759dcda364104d98ccb7500ca2cec83c3ae8c1a161f39069126b0ef58fe7aab"
+    },
+    "player_identification/artifacts/experts/opening_book/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "05627c5c93e2c8a51952e9a946a938e26184dc47877665c98568f30f17fcee25"
+    },
+    "player_identification/artifacts/experts/opponents/strength/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "db68a89fa398c5cc4b23a517154459812b9392040b75a5cdaf95b380091d2bcf"
+    },
+    "player_identification/artifacts/experts/opponents/strength/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "3d0e6964a998e3f1795f97ac22263603e47f2c6bd9b269d1b30c4d97a2fd52ed"
+    },
+    "player_identification/artifacts/experts/plda40/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "ecead7cd6de8556b285fd3376275bb5912a130404c014d79c0b0f9cf0a48865c"
+    },
+    "player_identification/artifacts/experts/plda40/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "962960bf3ab6d7fcb3e11eccf7ae9a4c8166764499f123660431e6fe6a0e5f30"
+    },
+    "player_identification/artifacts/experts/replies/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "b48c43d07ef394a8e2962a7fcd46d17ee54ca59b726c3496a56ed01915ef28c8"
+    },
+    "player_identification/artifacts/experts/replies/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "6c00452ae3f2df3fa5cf0a625af73e3c9638bbf16226327054eb0f700a8a644d"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "8547c642c91e611c0561913112e655b789acb1defcfd72ec077a09818c99ea92"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "aa54ca118bbac3c1b18239f21cde39e585666d4793bb4ae9c10a3ca760fee861"
+    },
+    "player_identification/artifacts/experts/stacker_moves/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "74562019355a8016354bcc457041557e7d61bcc7e7b6849ddc4762c4ce258109"
+    },
+    "player_identification/artifacts/experts/stacker_moves/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "e182ed9a87b0854f2c7060b473b954296840346bbb3afc1a82868bce5f9d1c25"
+    },
+    "player_identification/artifacts/experts/strength/priv2.npz": {
+     "bytes": 1765726,
+     "sha256": "1f86d7e8dff22dde0687aab4daf32b20b2bbc75ed621b3475aef535a25546fe7"
+    },
+    "player_identification/artifacts/experts/strength/pub2.npz": {
+     "bytes": 1764836,
+     "sha256": "b1be85709d5b701894fddd65428df7fd25361616c98f7e5741b8673f04d5a6d4"
+    },
+    "player_identification/artifacts/experts/style_policy/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "aee4f3c53b273d3c6dca41b2fda2d9109c7dbe867fe652d2154550aa7c060c96"
+    },
+    "player_identification/artifacts/experts/style_policy/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "915bb8c8b3b6a48725983fd99185024654e30773474884ee591e81c76d33dcb9"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/priv2.npz": {
+     "bytes": 1972234,
+     "sha256": "44c1f4bb23de07ddea6546c90e7b49f132707ff40b3406d4a4e3b1e0e147749e"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/pub2.npz": {
+     "bytes": 1968234,
+     "sha256": "bf54b31204484343883a1f12148d9cc9aa4fc6bc21c94c7f8bedaba2a4d82e74"
+    },
+    "player_identification/artifacts/human_trunk/priv2_d18_rows.npy": {
+     "bytes": 56928,
+     "sha256": "57a640f38ed1bfa551fd6e4f37671a741e63b0bff6579f127b5795b4d67fa054"
+    },
+    "player_identification/artifacts/human_trunk/priv2_d18_x.npy": {
+     "bytes": 8179328,
+     "sha256": "c69e21be13554474504c70b2bca52c2f475dadae63fe40a343b641f95d170e06"
+    },
+    "player_identification/artifacts/human_trunk/pub2_d18_rows.npy": {
+     "bytes": 56928,
+     "sha256": "57a640f38ed1bfa551fd6e4f37671a741e63b0bff6579f127b5795b4d67fa054"
+    },
+    "player_identification/artifacts/human_trunk/pub2_d18_x.npy": {
+     "bytes": 8179328,
+     "sha256": "117f77618e15c22125770db1313866ea5d5c62b01c59471bdd971e41af9d0bfa"
+    }
+   }
+  },
+  "training": {
+   "asset": "player-artifacts-training.zip",
+   "bytes": 1101402248,
+   "sha256": "a2ba1d4f4fcaf5329b5820e3c91d9a3581a1e283850b187cbe2b62e15cca8c42",
+   "purpose": "Optional: retrain the shortlist reranker (train.py, acceptance.py --trained)",
+   "unpacked_bytes": 1358011261,
+   "files": {
+    "player_identification/artifacts/embeddings/emb_engine_E4.npy": {
+     "bytes": 101453952,
+     "sha256": "8d0e09f0b5c5def4469c54333dce0e14bf74c146c426b7c9bf239be345e837b8"
+    },
+    "player_identification/artifacts/embeddings/emb_main_E4.npy": {
+     "bytes": 407871616,
+     "sha256": "f2c82ce49c711d18cc4f5261dff46ae57973011fef0719121a86458ed4c2e463"
+    },
+    "player_identification/artifacts/experts/baseline/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "9d11f53320a6d9087827fd16937103859b0ebbb952baf31dffe328ffb60694d4"
+    },
+    "player_identification/artifacts/experts/baseline/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "857d12713c4c5bb9bd18fc9079aa5a94e477975043863f57c7d4b3d5bc1d26f4"
+    },
+    "player_identification/artifacts/experts/baseline/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "0a1b723888d803d80ef1c6728992d902403b288dbffd7146e93891914192b2a6"
+    },
+    "player_identification/artifacts/experts/baseline/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "71e11825b07617b0f24cb6634150c12dc9db4cee0993f9cb981fd24c9cd8aa63"
+    },
+    "player_identification/artifacts/experts/baseline/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "ad79818dcc59790c2cfeadc713bc97a20f081c616b63c733d4d5f2d2eb312661"
+    },
+    "player_identification/artifacts/experts/baseline/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "13106512e2761f953f3c0cf2a201ade01fc654a9ced6138a043276a9f3d94de4"
+    },
+    "player_identification/artifacts/experts/baseline/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "878e3e5dc99a8413ba8d2d1458487155f7df520d624934c379fc189e1d8bc6bc"
+    },
+    "player_identification/artifacts/experts/baseline/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "4c733256ae7e1df2693d92a9bdc711fcfa7be510000c9b25e162524b16f1a292"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "9b2a1198843bb825b73796d879af391d9d3864a39e0ca82869e65ba344777077"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "e47c0f4435fa754b7073f32628e16a62acfd539556eefe1396cacb6cf77dacc9"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "2cfaf84f7a2496fb01fb06663773bf78e317dd647043fbae75ea8156456ba98d"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "2bda814d1afb345603ca6ebd05ed121be6c3edfe51c97cece1910a0eace5d248"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "a9d6f83232928aa39f5b5bcc15ad0fc25325521d995e378375806df281e0290a"
+    },
+    "player_identification/artifacts/experts/collective/cohort/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "8d3283375cefdd22df9e85dbcb611281405947523c7a111a64745a970b6e4c86"
+    },
+    "player_identification/artifacts/experts/collective/cohort/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "43cd18c54b840d0d14f3fb4a0cdc67e4b0ae09a19358dbdde07a07ef6c05a4b7"
+    },
+    "player_identification/artifacts/experts/collective/cohort/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "8db596de9e76ed0fcd4c076a1413660282d39f12144321c1fdf2b658903207db"
+    },
+    "player_identification/artifacts/experts/decisions/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "cec396b1c00ccff28756935fa6fabb2d548d4026764ebe42bfb1d2004e5b5948"
+    },
+    "player_identification/artifacts/experts/decisions/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "315498adc48333bd2cb9f3c4efcea955f16383e184db76e60bde1d84ed5cc0fd"
+    },
+    "player_identification/artifacts/experts/decisions/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "7c12768656f5369f6283c29a79a0284b0f7e455c0d8c08b27e0f0c7a0e71a65c"
+    },
+    "player_identification/artifacts/experts/decisions/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "ce526161e57b4766f5ba8b83b6913195a904c1653b77b3fc077bbf7c8d2c5daf"
+    },
+    "player_identification/artifacts/experts/decisions/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "27d91aa8b68c2a34fdb42a9dbe541d48be557315178c6e3296927e6d9cb707e2"
+    },
+    "player_identification/artifacts/experts/decisions/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "4ca22030de2ac88e813fadbed29c6130c416acdfd38795b830e784917f0953ae"
+    },
+    "player_identification/artifacts/experts/decisions/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "e370c729fcee65d6161db7c55cbc6b5a9e471812829810618fdfcb85fcfac644"
+    },
+    "player_identification/artifacts/experts/decisions/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "b8c47cf15b01abc8f8ec5478ff85a61678c8cc47d9f82befd173715d980c4d3e"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "e54f17673522dc967371c5ac881cbdb3cf96426b412dd820023d5726d05fcfcc"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "b73a5d15cd0931398fb4b8f76bc2e3ee17bb26281ac9e6fb20ac6651d746fb0d"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "67bfd4013b2d6bb29e7f9794a3f239f7f99433e661cf5d06ec85b0d221f47de7"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "52bbbcdab90103fc4cc8e26e8a341d24b9088858c278af14bd11d7bc70b0e721"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "765b82a8a068e9c83a1bd265ff0e1ab8b0220660a97a2ce9f0bcad4731798549"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "64b756b01f474b6941587f85d66fb4d02bc65705d25514571d5a748507b20a95"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "c1511a357e5725b5488806ddb0b8944f28eed67c8626e45228d4f726728fdcfc"
+    },
+    "player_identification/artifacts/experts/domain_adapt/opening_anchor/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "f18c7db0906bd4bf5a684541436120d8e3a5319ecb137dca376bed7dfe740461"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "3123c28e345d10d28390b461e87fb3e0c05ee55eee22b257331ed33509fc541c"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "884fa5eb3cdb74a6a9136ca37103e72d28ac9d4c0668793e5f1b83abb157567b"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "053344a95ddeffc5348e96931a1fa59458001da0203d7d7b38b934637efe9e93"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "960dabc5faa3eadbd4a161b4cb5a9612003229b6ccec96866ba78fd88303e18d"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "fad0e194af9a13c044ae0a0e54ebe0f487dc8d44624e72ec850d277b5ca8766a"
+    },
+    "player_identification/artifacts/experts/end_profiles/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "4502b4ff0511ab187333bf743fc2d52334396060a7868a1125e3ef1f39c06b0d"
+    },
+    "player_identification/artifacts/experts/end_profiles/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "85e4a965b373d6d7db93311e9f41345d94d5ba165158b87619a97805ab47b011"
+    },
+    "player_identification/artifacts/experts/end_profiles/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "fd11ad9967da9ba5279bf9fb6463100b9cbe96d497438f755ab960935bf5a940"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_holdout_0.npz": {
+     "bytes": 1060782,
+     "sha256": "08bf284e94c736431e3bd74424cd7cc257888ffa655ddf71a683beed50ec97e9"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_holdout_1.npz": {
+     "bytes": 1060782,
+     "sha256": "900a5eebc8033f57e49e3663c2f267a57596e41d51625418e9995dbe1142e382"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_holdout_2.npz": {
+     "bytes": 1060782,
+     "sha256": "45227606b467159cda9bd8b3423053ef19c615fc7c43508f62e7a1ac9e2233c8"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_validation_0.npz": {
+     "bytes": 1065582,
+     "sha256": "76de99d5cb69e500f00681c2c597982be17a3f2ef1b0742284a1be1b40caef35"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_validation_1.npz": {
+     "bytes": 1065582,
+     "sha256": "4105f2f13dbc4edce5bf0071c90b62ef6adae56dac7d37608bca8461e1a49bc9"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/engine_validation_2.npz": {
+     "bytes": 1065582,
+     "sha256": "7317d6208c6cd1b2367232d84d206082a7c8680bb7fa5eeaeb0b02ac6af6dbb2"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/main_holdout.npz": {
+     "bytes": 1039982,
+     "sha256": "afa204d55e7014ff68838183d160bad94fc46b9475358e9c14cac06b16ed62a8"
+    },
+    "player_identification/artifacts/experts/engine_moves/human/main_validation.npz": {
+     "bytes": 1044782,
+     "sha256": "8c6ab515680a4bdd57fff02e6d07275dc007128c843b4020d79a1b4e2abbcefa"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "5c7bff3da13cc795280b227d06fb51d75802f21ea66c7d051fbe4301dac56818"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "5635510ed266426f31b88ac014c18662b581a2f663ca93f4c3ad10265046eae6"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "de58cfb830c027b79cfa755f1e105ffb3cd82b56b46e5fec6fec9381828e414d"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "7d22e7f04b59edcdd9de4c0daeef4fdec0e302298ce781b1d494cfafd3fc6238"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "6db9383e23aec780b0594afc821eb9cf9406df28bdff4ecb5abd533a965934d4"
+    },
+    "player_identification/artifacts/experts/engine_search/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "722c5b83884e5c6b6c1da84ad3bb20d4029da3fc214c664f43b7490bcb6477fb"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "764fcbe7a959b6a1cfa0755787cd2cc31ab1afeeccf7ed70ca60329274092efa"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "6d4c0a22ead6be5d54f3a253d4c2c88773cb582e19dcf0968e4fab21ff33df77"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "bfcc10d0fd0de326a0c0f27960b1692ddfabf878465b8fe542b44fbd7424256b"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "cc66976ae5a838205753e5bdee24347d678df6b5d526d9a7a2f3e4b97bbc4805"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "fcfd46fa9036d907d6534afaf221d8ad2bef15c418fc04cf2002369b276d5e74"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "f965a11b67eb3382f730d4c75ca6858a3fdbab6f26015f753e9fbc981a90922c"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "ab3053a85e2f41c5421024305d909bd91ed6e7e2ba72a49862b6892e8facf398"
+    },
+    "player_identification/artifacts/experts/engine_search/fox_set/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "c11cca0aa3e6c65583c25f73a5f828c6e1bfa465eabaf3785707ed6fffdcb3a9"
+    },
+    "player_identification/artifacts/experts/engine_search/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "ab3053a85e2f41c5421024305d909bd91ed6e7e2ba72a49862b6892e8facf398"
+    },
+    "player_identification/artifacts/experts/engine_search/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "c11cca0aa3e6c65583c25f73a5f828c6e1bfa465eabaf3785707ed6fffdcb3a9"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "553e66bf7665c07cf57d5fb16ec8373be3614482e52a23743db948ccd5c85ae4"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "f4ada45c9602750ca052692d3fbf5772c6144736dd71d7d77f68a3340a74e8e5"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "8b876ce7ba817cc0ea707db8e20cce7a6a84fe78cdeb8fc6a8ba59f49f83ff20"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "7db68d7c34d427cefc81b71ede5c3786637d66e571fc10f4c188503430327b19"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "7435f9563b1a46d5b09234f2d20e19e5025d1ea9ae550eb5b7a93b2cbed34fc5"
+    },
+    "player_identification/artifacts/experts/engine_sequence/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "3803ae4db39ec26fa2762c152ea50c4af35c372dfd5119dfb942d893bd216a2e"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "7e0b39806024c99c72a40130a705ff8a7ca0f699e20e4f447cb7c0b00d115e81"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "b3075831fdbad0bcd6cfda40314bc357118b6b75b038a670c72a25a2ff7b5aca"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "61ab344e13515b3bdff09502cfdcb6b47051182084fcb1f27ce35fa472572310"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "ee47cf3e910731497889cbcbbf7c3f4749f8d8c318b403c78b1cb98b3a6831f6"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "c5b54f230d31bc8851d72ebb07bc01a784c58589bdd20170ef92128a251ad89a"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "5dae762f73ea82bcd8fe6c3fb9e82f9b72dc3edcf3a58c9503f4718c6d42811c"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/main_holdout.npz": {
+     "bytes": 11545,
+     "sha256": "467ac3322b29817348709ff243cd2a166be8fe3a72a3812b302c78b69641f5bd"
+    },
+    "player_identification/artifacts/experts/engine_sequence/long/main_validation.npz": {
+     "bytes": 11558,
+     "sha256": "95dd8122b3b56395a544fcaa3f2f752cc04d5fe3dc87424b4fe9897c3651620a"
+    },
+    "player_identification/artifacts/experts/engine_sequence/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "ab3053a85e2f41c5421024305d909bd91ed6e7e2ba72a49862b6892e8facf398"
+    },
+    "player_identification/artifacts/experts/engine_sequence/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "c11cca0aa3e6c65583c25f73a5f828c6e1bfa465eabaf3785707ed6fffdcb3a9"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "5bc8103d0c5ad0bf3cb7b83272339ccaad7b1e6f93591c335d567938b3d41e65"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "99f2b4fe567a5c4c792e22edd926479bb3b45c2a2db597710b753bf10739c1be"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "20a2e177107ac96b2c0eeff5e2280a8f298fd7b5966144254d8a8f17f4f34cb1"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "034315b9409a8b425c32de255aa3a74a5fdba7c351e7926ea26dbe84ce948fe3"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "426a1b688e4e66008590aba033f5c12a51a3dad2bc45489f00b091cfab60813c"
+    },
+    "player_identification/artifacts/experts/episodic/joint/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "5b6f8014a7ea4886ccb379d0e707e70c7e1d50cf83699b698fc7e6c62fbbc78b"
+    },
+    "player_identification/artifacts/experts/episodic/joint/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "c37fe50fbc68ab61fa9f7e9a2332acbb43511a0d7a75011b18dd9ba304ccf6ec"
+    },
+    "player_identification/artifacts/experts/episodic/joint/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "c863bc5921d71a3e5e5028e7c53ef7fe8e95f9937952ca8a1578c4677bf9e0ca"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "35b30402f2bb4a1cdb2bf59e520c11226e7144ebf0bcd79c97207b0b183110c3"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "b58215d6fd7c3b2b3c5e0c5af88bc5cd8a24d6a6d9f62b40c43401d9e2f51511"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "dfde88047900de346f692887bc53a0b4f697c212873a4858dc9b64ad197a9b7f"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "d50e3f38d299f0f02b432295cea7d839a316431fc2ae1a31aeaf211878f7ca5a"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "731ced19722c024964064d88716a3012fd77e8cb8c8714c9783138f5728a2eb1"
+    },
+    "player_identification/artifacts/experts/facets/native/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "03437934511aa9541a85a9b28f97ad718b49f3e798fbe1255f2ad0cfd721f959"
+    },
+    "player_identification/artifacts/experts/facets/native/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "4f0b5abd3a4bf17e3ef9c442a57c8cd815c2685ad823bbdd056eefa91c8239c8"
+    },
+    "player_identification/artifacts/experts/facets/native/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "e47c1c34379817b221548d5ac1f6e0c6e48095504d81b12a4eb42a2bb7406266"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "043f2da0f8e65ac4bb062c1d951c9e74b3e88728863e14f1be17a84ffa7aae8c"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "d4b3d1512e382f5f2b9e74fb70a0d94f2ca5df50521b87e13d2fedaa85b21077"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "89928dd2b90fe153444df04fdd70ef177ac6a476eedc487f21a4dd84c47395dc"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "36940f7bd1a05f2e1057b0bacda61c9c1adddeeaa349badf5a6bde62158646dd"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "f3bdb23d9eb750c803aa4b3822b489582ccbe72559e8c668482f5bcc39090ad3"
+    },
+    "player_identification/artifacts/experts/facets/unseen/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "057d2a5adb9a1926588071e1ab475f8a7bd10ac15095c447055562536cd4cb53"
+    },
+    "player_identification/artifacts/experts/facets/unseen/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "afa3e79983951b2c4ed30ffca4e3df4597973fa2e22bfd5e864f9a2546c13dd3"
+    },
+    "player_identification/artifacts/experts/facets/unseen/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "c737f145146e53ebd44c3d6a8d9e22af8d6f6aa2f167859363f420c87447155d"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "e783fc465b5748bac472a3c768015682d65b7a23f318ebda78fb5b8cc77f5060"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "c157ad47d56e1bd3b801733edcb54943804a0f1fc19bf2daf823da203a513cbc"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "2989650918a714c726a822635cd7175e6dbbf350f9dda0aaf679a6980c9b3c08"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "0e4ef1417a90b37cc4c38518f894c6ecc707ab32f533db2927045a3c82276e9f"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "88af5c232b99029d3f657ddb8963f81625150cbe9190feb676ea8da899222f5c"
+    },
+    "player_identification/artifacts/experts/fresh_match/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "622d8435ba7f705be0fd174bb07f55d01b0a4c51c35672f134adeeb639bfe88e"
+    },
+    "player_identification/artifacts/experts/fresh_match/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "7ff5cbafc483c08ce752a8a28af1ebdc07ef257dd2f4b51c715c4387f32d584f"
+    },
+    "player_identification/artifacts/experts/fresh_match/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "d68f5c44dc4a16d06d7b740584e6bdd1b4f6d6ea92aea82b2e80e753cee80cdb"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "bdcca1f4fc0c93643983d5ada8665368dd3a080c2ebb30bfded08926a87d9300"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "3474b551b34d91c1feebddff9e4b2a25edf1e17e7a4b114f0f11fd869c57092e"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "34fa1eac5465ac906b4c508c9bba06a387f2c35d64b74f1873d4422623918631"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "93eb8cdccf1bfc6bcd63e792bbbe1fb8f67efae4f9b4ab2b0f3cacdcfa8e2e86"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "3b4c2982382c7035b502ca0deb54a1a3ca09770c220638c0a5f3347171cc2bb7"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "41723a0757e07e626581264721cad14dbfdb5818ff0f14f9624ce7485a954a64"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "16ce198345859fefadcbd51996825e8442a2a0dda94574f823fae659c5547dd0"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "47d8aee745be621554c0f2152fc95977166d95e39ce3893d94330fb0260a9597"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "e6b8e47d44f213f86f3df3beb02a6a63a55199ea9675017a1dfb40a1b8523c76"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "934a9a045e9246af22e2ee309535fb23630bef702550929cac24d72cbea05983"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "885cdcd96657c4fde807ef0a89754b170a878affeb8a186aa7c79251fdab9d23"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "e524b3db9c2ad66f99f5e7fb43e2a5bad04baa3fa1487a097d4d08860b14550d"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "fdb550308302c4d34064188767f2bdabefe750f13e4d1f3c584f1ecda45bc748"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "66b23d314d780e5ecf5c419b6418e35bb317bcb19eea97d4467c82960a6b142c"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "1806a050cab33241437b59465b3ee208cdeebdcb890acefbe7cf7d3dd343309d"
+    },
+    "player_identification/artifacts/experts/human_trunk/d18_views/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "a338a7cc50c076db077e8cfff41caac1b25f4412892d9daf3b33d98ab9a05818"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "be23bb53cec200867b618dcb310a664696d701ed47a4e45cff4fe8238e060714"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "6c2d7cdf625fefb5cec6ffe296b9374c5dcd214d8c5b34443e913ffc0c2d47fe"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "00317c8c3987c5aae6a7dbd2a0a43d68e757971918832c73ad88ff8dd2f23805"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "a91756590b9a410b5caa7443546e3987c740b28c44f242fe9bf873a1c127eea5"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "59c744eceec7e21be99b7a446950c8c6548cd76ad1622b4c3cfe9c464eb0e72c"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "00d69df2240cd69a45460d80afef2834b4cae0838207868c7716a8dcda893b32"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "62f5852c724458550295118777cbce76aa0b38fb6961e5c7a37f3de8c46fa2d2"
+    },
+    "player_identification/artifacts/experts/human_trunk/fox_joint_views/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "42fd6114d4b6db88eb2c04ad45c92cef1f1c4197fcbcdd71eef33ce92cb0612c"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "59e32e4e69efba7c9d88487469e8097ed3e1bdf307c1d30a28bf3873595a9349"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "4ac44e54f85d5542ff6aac64573994d0fa2ce5f6b9c4c13dc73cb133ae369a0e"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "633c867f19a318388569ae8c8f12284909f783a98a655023f13b1f183be6d6eb"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "48fb0153865f23f56d923aaff562b0e3aab12d1bfcf8441400c36cbb48fba8a0"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "6df7941ae80e3edfd4183e8a1ba32e3280d1b2b2e4d20ef743a7366feabaa5a5"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "74cc101294827c01c0e4ae6d074df8271f05a51d64772092b1cb65d4f4d2f600"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "398ab1dc5c1868654d6efc443cae9ef16e215655950acb1df13a559a48095cd0"
+    },
+    "player_identification/artifacts/experts/human_trunk/turn_match/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "6c85910a2c032ddd883cd2c9405b8b9df7f66ab7d21758036e2f3b7804edfc9e"
+    },
+    "player_identification/artifacts/experts/metadata/engine_holdout_0.npz": {
+     "bytes": 412121,
+     "sha256": "efb79aefb26fac64c5987ea7e2861ca6fad70734bcb0fbb915b6030062886ec9"
+    },
+    "player_identification/artifacts/experts/metadata/engine_holdout_1.npz": {
+     "bytes": 418343,
+     "sha256": "8d3898ac4be777ea553ee92b059bdc03ad3596bb4fd4bd0218294574f753e19d"
+    },
+    "player_identification/artifacts/experts/metadata/engine_holdout_2.npz": {
+     "bytes": 407667,
+     "sha256": "e09245ad15c8c7c4eed837bc27b6997fd48a1408f0bab789ec7ecea18d26178d"
+    },
+    "player_identification/artifacts/experts/metadata/engine_validation_0.npz": {
+     "bytes": 429207,
+     "sha256": "4ed1771b2cad844e7f4352e317648db7b3c60cdc06b55f4ea986c3d9eb8d7584"
+    },
+    "player_identification/artifacts/experts/metadata/engine_validation_1.npz": {
+     "bytes": 415619,
+     "sha256": "d2fa06974c84db6a74221670d560c9927fa606c2551f1e6361c44e8589630c1e"
+    },
+    "player_identification/artifacts/experts/metadata/engine_validation_2.npz": {
+     "bytes": 417458,
+     "sha256": "2e447613607c69547ef58397ee7ea78c89f961cbc6a0c76b15bc9842cc2bb50e"
+    },
+    "player_identification/artifacts/experts/metadata/main_holdout.npz": {
+     "bytes": 435583,
+     "sha256": "d416f698412302747f5f9b51e2beb301674f7a7e20fefea17531aa80003cd0a3"
+    },
+    "player_identification/artifacts/experts/metadata/main_validation.npz": {
+     "bytes": 446127,
+     "sha256": "a5c0b975d13e1e91095231afd01566249c53a1cf84e0d3656b051030cd3b37bb"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "44e17d64424978c0e0422ae3ca10cae9a18a947bc7a2422f5ffedced579ecae9"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "f19895c84bc3630a00bf496939d93457bd0f45739f95d9f86ea441b0845622a1"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "4153f52ea6b5455ed20df88503c215fa8de7157d62b0ef6b41027aa2434b28d0"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "e623c34bb2b48d55a7e6b0230424bb0466ad3931c7b24a255adb9e34a101e55a"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "c5734b3ab4268100ba3c9ae329530bdad0bfcc8f688ac9e95b8ef1b7abe0264f"
+    },
+    "player_identification/artifacts/experts/moves_distill/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "5fb9c76dfeed1ac74fbe6066a848903665e1e8a27f25ba90339f12dfeca514be"
+    },
+    "player_identification/artifacts/experts/moves_distill/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "81e9d12e1ec48f8aa223bd1f55689ef63c57496044a694d7871eadfaf84e4558"
+    },
+    "player_identification/artifacts/experts/moves_distill/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "5559a1cf281fc8753b9ed6d9f64b0cbaa2e0805f84095cab37980784998061f6"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "f0249d419a458ec9cfd1cb6882f6215bf7f021ca919afa02ec44aecbf04adcfa"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "c9351b202c5bbedaf7b2627f6d0074ee831810dcae81db390ae8daad8444229f"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "dcfc023ae7b94b87bcbf9d339ef6444fd65bb6b3de3936f074e0bb4711aacb93"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "c9b09b0b12c80437a117541d5324664987ced9233d308f007f087e2021d327c3"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "8966ff42b58f65a40f0d0b8540e75ede9e029ece55cc01dfb808c45e35d39716"
+    },
+    "player_identification/artifacts/experts/moves_fox/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "ac6a2963d714a6e60a3024667dd8c7bdfc2b0bcd707ac2ef3dfbe39918f9c54d"
+    },
+    "player_identification/artifacts/experts/moves_fox/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "6df721a992c445e51f328ecfdcdff1dc811efde50a5cab0377aaad022385c376"
+    },
+    "player_identification/artifacts/experts/moves_fox/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "60d790c1833807ded66a54bd672d68fb8dea62c78fb6fd711852440a2d97dcbd"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "212026b7d5cc3309421fc941fc392585b279b6c2562d3cb51d670dc5b0392548"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "d11a8c2929e3bb4c23443dc35c99c51eee05e0393bc6e2b1233b5ec6212fa624"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "2ab1da6186e70a3db6747bd0a1dccada34b68f4b8777d3cbe23e293dfb3aa0ea"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "f4b9ffce31b53f03d1ed192a3259f0bd0a7e4e65fb8a5935465ea4550203e10e"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "72e3e3c823c3286b60508dfc7987b9c1f9ce878ad3de5ed3387c1a009ccfafe6"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "671fcef263e0838adf631d8f83888742dba1359780988fe267c93e0bafb9f22a"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "0c845fc5a6b89e433371ae30b80ae4d7d9be35e624f29de630d8040a62609bd8"
+    },
+    "player_identification/artifacts/experts/moves_fox_episode/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "24001b4fff7d1a1292c051ef56cc51cb71edc39999157966ff5fba776d920589"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "236f1c327f6e3b5245d341eba277edccfb817e9c1e97b12781e3f84fcd778e11"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "8f502b835bde16bd916dc48dda1bcaa32d1853b164c6a797ec5db971c217d0b8"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "25b0274a564cde1007f5fa1cc186ddc0089328a6471fa8246fff99b24357ac45"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "db9e04853511e2349232d550674a17e9a5ff06eed141558293e315529b24042d"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "9bf8d029ff00629ec3a351670bc46cc8ec14eab45992f3aaeabf02b7418a769a"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "acaf75888af32437b09f665be6045a3dfb1c7a7a696e635d31d58f19f981e29f"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "0b164a6a234cb9a8b0c59ce69b8bfd3319abcd6caff0ee501c2baa75382b95c5"
+    },
+    "player_identification/artifacts/experts/neuralmatch/late_residual_fox/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "7b294c4742517640455185a919cadfbac54d1ebf3979de7c78f258dc99ef8c99"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "17c110ff9d2ad4a427fa6dbfe2c32cf3d2f37f4aed0a86ea38bf4c07b7e85b76"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "3a25ca02a5ab1bddb1b7560cb043170625886b8186d37613cf7600de9d0bd576"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "bbb20f9f9b1279efb30635059abb577d19d382e03fe6a8741611fcd4f5a91d88"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "dc4e177af58bddffae39d7d71f0ec43ee15ec5bbd88242638afe21a80f24c737"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "ea2c9d4c4721e71a64d9a4a7acdaaa2a5403a3a55c96bd6eabcdf121260a1e72"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "fe0da4d6482fa4eea4766e59a098de812270b4db34658b3092a14bedd674db3f"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "c6446083938a00767a4e0f72abf9fae6aa67c0cb450a2ab8f8c2e5021450eb99"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "2729115f0bacc05481c55dc50bc3d49fe4372368c471a38b990ff511166a20e9"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "ccdc145dbd47e7e7fcb21cb9e3f38fef36f37f441618499dece62a23bd2233e6"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "233835059defdb11219459fd4c0564a21f19a64748d2ec13d6c3c03297f7981e"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "716ed96a6b5c3e87b38e673a83ec95362d834c229886337bcc7ad6f266e27543"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "eca7444cf6bcf65e72e88af3f2db60d1041b34c4fa45ff6849db8eeee9fc609e"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "4b6144ec908bc53e3b1941e10676369df847f562388d64b79ad3bc517b8e9f0d"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "25697b5193c9fdb8ef337cacd808bcbc4f63249714541db9f18d735e0f312556"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "68409010918d61f51a7c30233f8c317f52a0db961c64972807114c24cba92502"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_board/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "27b4ef3861304d815aa4bad11604d8007463572492aa950b7d7bb971090e7085"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "2c8f73f7889cf4c4dd3e3be902121ee7e3313657ad2f4351e18365f73195c0d1"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "e21ff086c23657efcb537d6cb0e02f788508bdc79403fac9ce7c4a2250a22c6f"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "8ab0704f89861e02582c77fc7a79b191fa17123fdc46e95c8ba99c274d799d7f"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "fa3125428da9076a96b9de19625cafc9a3355854ae57f4b4f99b835c77bc92ec"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "d0b0bd98719a7b28d6ba50e56c2d9c9b511cd09dfe8717785d533fdf034f2af1"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "0a05558a06f27808aff930251c52348b7b3518647b50eb41d0e134bba5fe8b5a"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "aea15e16956d2011da114e91a37cf5ebe99169c0cffaf733a0822d99cf0beda5"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_deep/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "7da280b039705f4e98239287ae9c399f9f89f0e7ecfb9e1c31c0ced179c98119"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "457e8062106e377607ff0c21cd27e1e68bde282e3e56a50a2726cee8f6b29ae1"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "065ed09e4882b9db2e1d58189852343d52c38b119387775a489653b6d63caf6e"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "b04e219aed4840278f93c5f6c7b9d0d31c3826e6432d5e580d512f46dd8fbb1c"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "63cf9d787ba4058320c98dfd70e324379201761ca8a2c066ce8ffa51cec2a759"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "1a1c1c5aebec2f874742f6e525b467fe1629d75a6ce70b1a0cb553830b487518"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "65a88f252080491a44fa18ad58dec2adad96e60fd4cea60ec2f2ccc78d453c82"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "3197436c4de08da3b09e283323712a005efe14027d00d3a5cdf5568322573c44"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_fox/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "dba229ec521251d58d4f1fc630606dd649076a56ddf3014eec10f24f91676fa0"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "4c67e8e2d48df23834ceef2bfb6434fd55222f2c402e0b8431aa07da08c5b2d1"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "a1dcf0e2105f185f03c46dffea827241a936f9794dbc47230a0f183d37d3bf91"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "d36a27014214ae246ee67e9bf7d0a351917a546925ce136df36705761f9e8e68"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "ec8a156ce3540168ea0137f81e7929a23e642b368cfa9c28f992a3c02a0565b2"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "96f8375c0573bac2651b79d231610d996471349555b30d5c8c7ec8ac3586b18a"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "7b7ae1a57d5b0def3d7c40a5b6e48851e4dd6a5898e56fa83f4cef6ac469e1ab"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "af016f87399580c1b049c01255166b2070840696496afa6b574b614699d7b11f"
+    },
+    "player_identification/artifacts/experts/neuralmatch/moves_patches/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "64947f02d403adde80b7cc2e8ab442fbf77df4990edef556335c1b61ae2bb473"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "8b2fe3248046d77ae0ff9fa9a2db6e9057ac9d46c1c9caaae476c6d9dd0f963c"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "87bab826a851ef3052a2c69854ad4547c6f441ffe4a65144d0f8821fba4079da"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "09c299621b6ee27eb747a0d47451cadbd8c8b680872ab79310b1e95221eb12d0"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "0b7723d878dcdb552226bc3d08c47bc904aef84b1164ef521580354a4a828bc6"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "3a9e149ce2ff4505c4d9693bd1676982e9d11f2064c6d06c75203a04378eae4c"
+    },
+    "player_identification/artifacts/experts/opening_book/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "023d32961dd38c921265bbe042d8705c39e07ba7226ec3cb9d408802982e02f1"
+    },
+    "player_identification/artifacts/experts/opening_book/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "b53a4928efea57fe7e6a8ab77e51d1d7e16ec9fdf3fce174e407c344912f2d23"
+    },
+    "player_identification/artifacts/experts/opening_book/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "4ccc09190e89dda61d7585f45b3acba9b3e06de64aa7e920aa32f7dca67cf52b"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "8b61b7870ee5b591367e35cb60976b0949068bfeeef7f208603b81f512050dd1"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "87946c1bb3fe10814fd66530ed77b71d7791f5207edf7f982fed931e36bd3c80"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "8e14395266295fd9f4104373850758733512b1dc40e85663fbe9be2641e0a7ce"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "af8a4eff66621556b28729444c525e63ce495c555b78e2e0783e290f3b177824"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "4fe631f61f27272b52aed7f9d83b79703558375566c8a05658f77330d8de709e"
+    },
+    "player_identification/artifacts/experts/opponents/strength/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "ae479515cc7abde358a82d61d7b955a64c8711e9813d8a9de740f4fe7fd8b93b"
+    },
+    "player_identification/artifacts/experts/opponents/strength/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "5f883764cafd9ae19ae0078727f5a8a30192c890196a4df5f7200828b09198cb"
+    },
+    "player_identification/artifacts/experts/opponents/strength/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "119fde77a0caa3223d64bb7d49d0726a53c7beca7ee3f2d93a3530d0b129a741"
+    },
+    "player_identification/artifacts/experts/plda40/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "7ee8eb79d6e69b2b3248fc63c0befc32b4b935acad87a6b06dbc997d20d1558c"
+    },
+    "player_identification/artifacts/experts/plda40/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "2cc1d6ee07932ac252feb411d1e791b78094c953e8fa73df89cb0d5cf05a8ff4"
+    },
+    "player_identification/artifacts/experts/plda40/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "b8b5e9f2169c7118ac5dce94742a9c6b2735571828b8dfff3ad85183a5fdb4a1"
+    },
+    "player_identification/artifacts/experts/plda40/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "59f6379655e7d97175371d9b8290fdd5014aea98f31b442faf70f69784013d95"
+    },
+    "player_identification/artifacts/experts/plda40/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "d37115db14d28b28fe5d309473cb407e68277a3bf9ebde01f2147646e6e38ed7"
+    },
+    "player_identification/artifacts/experts/plda40/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "e3f0f5fcf9337bd61e17b50ba9e027d09e9a05ab0a25723882a15225c5c3933d"
+    },
+    "player_identification/artifacts/experts/plda40/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "21d8742ce969215956fc0b6d2ddc28187812e243f884df547f298cdf66a836b9"
+    },
+    "player_identification/artifacts/experts/plda40/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "4857fbbbdbcd725eb281a7c60b283c33c01d80eecfed6eb585da2f887b4dd139"
+    },
+    "player_identification/artifacts/experts/replies/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "f696e058e47df2f53ec96bbdf9600f290e341e103d6e3acf3c3ad8cf23f89651"
+    },
+    "player_identification/artifacts/experts/replies/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "961c5754bd33b928da19559409dc97c19eda68c209d6d65849839309c88bfb4f"
+    },
+    "player_identification/artifacts/experts/replies/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "40aec88c1406a1ea608cf865ed9d3cf33b2b488dd066742aab718fbf30055e0b"
+    },
+    "player_identification/artifacts/experts/replies/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "4287e8e6fe56e766283b69c861ef89174ed0ed6a3868848d3e1d18ef092abbc0"
+    },
+    "player_identification/artifacts/experts/replies/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "fbbc15cac4079e4fbf64dcad68362924c3c73cfd24f6b4ef6ee8c47c98e2786f"
+    },
+    "player_identification/artifacts/experts/replies/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "584e66a026feb76c20f044d9cb4e9a65c824117f61f9fa4b4bead7d3e27dbe16"
+    },
+    "player_identification/artifacts/experts/replies/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "a742b53b3474c172a04c1f331c5cf9fcdb5bb71b9cf039d40855c995532ef1b8"
+    },
+    "player_identification/artifacts/experts/replies/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "74e1648096057820eab0794931bf5ca268d860f11776e713448b65c05f909c7a"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "0d3890358557a7bf8f472ed7330f31c56b70fac2e433bd9db3cd1656eb1388fc"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "0d0acd5d04938bc653628b61edebdfdcca1083b641aab1dfd139ab924084a662"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "9b54b7c3e80b78a1f8e3575af69869bae0c88747a5b65a2a285990d5201dc761"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "31356f4c55dba75a020609f1869ae0fe6e649446e0a750e70600a3bd4be5f216"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "dde987ef52af16e9c1c1e7d25615565da3c4269f753814e9ca972832c3d67b68"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "0bd7e61a49173ced8193aa7beff4ec8dc70d7562703f9c1134104c7af841ac5c"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "c062e39beb2f05957a4485a59d788adf13611ac7eada17049033571e97f91c77"
+    },
+    "player_identification/artifacts/experts/setmatch/e4/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "480e9bde3a4b0755c0c0649134f015bd03aa6fba627ab182e9adb9fb65fa6262"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "a15af390bf887c7abbf060cadfc36481644aee97c0026c8bfe92cd1e9d0130ae"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "e4accbdcc7221e6c4c28e8b4e2229f38d6cbfad40b523bcd6544c60be8b3ae47"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "cc5cbddd1ea86d15e3a0af3b031e67157ae7575ee26dd685d89b4710403d6743"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "4a2ec8e7cf7545eff75607c70d33aa642dbf01282f91a5d5421601d09b9c49a4"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "166b843ee15fe8a5802c62e066c0d66b3760c0b9dce5c72174b3d7043c01a3ff"
+    },
+    "player_identification/artifacts/experts/stacker_moves/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "c737212d8af227734da45219437c2de44fdc9627f62feb56003c7ee29cea7c9b"
+    },
+    "player_identification/artifacts/experts/stacker_moves/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "be03981065cb6198561dee92c7db52e45cc4c8a9c3a7a926f1da43e2bcc6dda2"
+    },
+    "player_identification/artifacts/experts/stacker_moves/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "abfae79ad42827072070cd359bbe3828ecc72b9015f84ddf1090e295032f4224"
+    },
+    "player_identification/artifacts/experts/strength/engine_holdout_0.npz": {
+     "bytes": 1767354,
+     "sha256": "e912e2a1e56803e0c5c351d58378e016a7736043d903d6089b9f8566818e2616"
+    },
+    "player_identification/artifacts/experts/strength/engine_holdout_1.npz": {
+     "bytes": 1768383,
+     "sha256": "7bb36b5d6f37538986739fd45796c162db3fe57f1bd4e4a093be3566c19fa038"
+    },
+    "player_identification/artifacts/experts/strength/engine_holdout_2.npz": {
+     "bytes": 1767800,
+     "sha256": "7ce6c856ff6e0b440183e5cbd158c2dc7a25691d1c99ea950b68d8373833cfcb"
+    },
+    "player_identification/artifacts/experts/strength/engine_validation_0.npz": {
+     "bytes": 1769642,
+     "sha256": "cee33e72dfe1e58d8e8459e92b4422faa3a89d8d3adbcc8c3b3b368a3f874bf2"
+    },
+    "player_identification/artifacts/experts/strength/engine_validation_1.npz": {
+     "bytes": 1768785,
+     "sha256": "e4c9cae4e70f8ddd8f708c4f427ee75811772bb6d205c448759b5fbb790c600d"
+    },
+    "player_identification/artifacts/experts/strength/engine_validation_2.npz": {
+     "bytes": 1769142,
+     "sha256": "55243c56d539d366c6aa821775cfe25b68d4fa568a8555f27d88943c10cd71a0"
+    },
+    "player_identification/artifacts/experts/strength/main_holdout.npz": {
+     "bytes": 1767289,
+     "sha256": "2f05b7cc6f69a077918f1b2cb19b290e5595059b671f549a55d3db369705cedf"
+    },
+    "player_identification/artifacts/experts/strength/main_validation.npz": {
+     "bytes": 1769534,
+     "sha256": "5e962e1134c965ba2f52ca370901999c9eed36572933c81cc8088a61b69b5e6b"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "20b90c9222c554b2082f3e612163ce1ef5b043750564ce2f3e96d664a6cee4ad"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "c3aca0c67974331a73506fbfd5450b07af6c00069af498a3d93a3b0b794aff11"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "72865b46b8dca0bf424d864757aafd77ca3199ed147fd879643289af387727f0"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "5aca741f6875fb9e8906995c68a2994bac1feb67603a452be21f4ca5ce99ddcf"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "869909ffe9420990041030becc110e0776ef3cde7e00998facc49a7ee295fbde"
+    },
+    "player_identification/artifacts/experts/style_policy/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "9d68e7932362d0b1cf86caaaa74a6d423b95ae887067202799d1c209bda7dd1e"
+    },
+    "player_identification/artifacts/experts/style_policy/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "655bba300baee27dc4eed448d369576aa589d3006e958da6359a7b90ac756ded"
+    },
+    "player_identification/artifacts/experts/style_policy/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "83c63e5cc1c6835435c5a1f073bb1e3c11031fcd184051027028230f987387cb"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_holdout_0.npz": {
+     "bytes": 2012234,
+     "sha256": "b1664210536c4800f3b4ee7847ce42f32a1f689081553685b708a634dd199c87"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_holdout_1.npz": {
+     "bytes": 2012234,
+     "sha256": "4cbec951ffd466255f0e0e5ad6a5c582c94eb3cd54cb4c244535ff420ee5ca95"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_holdout_2.npz": {
+     "bytes": 2012234,
+     "sha256": "b2a2d42b7dcae88eaada1970cb09b21b6ae60b97838ae4444e847785d36626f6"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_validation_0.npz": {
+     "bytes": 2017034,
+     "sha256": "6467724e98a6162accfef0fbaec87c008b14790553843983b1a06b92c9f1b992"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_validation_1.npz": {
+     "bytes": 2017034,
+     "sha256": "6dbb3510020c87eea90323a4eb9c3ac90d0d15cc7248e88b4a17b9d94388d373"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/engine_validation_2.npz": {
+     "bytes": 2017034,
+     "sha256": "e523f2f4c4be7111a200d32350b0ddf3bf1f34252f21557cb88f9dd45d99847f"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/main_holdout.npz": {
+     "bytes": 1991434,
+     "sha256": "5c4c3422931e51787732f272cd4f1d75ce4b7efac9d5bdcefeae68e5a6fe2867"
+    },
+    "player_identification/artifacts/experts/support_adapt/moves/main_validation.npz": {
+     "bytes": 1996234,
+     "sha256": "db7857009828239e3e3fa0b56bfa3b35c4149b0222ff24bbaf0dc08d6d7d0aeb"
+    },
+    "player_identification/artifacts/human_trunk/train_d18_rows.npy": {
+     "bytes": 1345656,
+     "sha256": "5275080b5dffa953a6b2f262e809cb73ea6fa75a6b0325defd7c89f42c3ced41"
+    },
+    "player_identification/artifacts/human_trunk/train_d18_x.npy": {
+     "bytes": 193756160,
+     "sha256": "93f3d2a99026d174a283fe862852ddffea94485b9d7fd5ee15ca7351f38ba068"
+    },
+    "player_identification/artifacts/pools/engine.json": {
+     "bytes": 3558907,
+     "sha256": "17a2d50f9045c7e8ea0bc1a7492e5166ab355a2a2ae4c20b6460dd81b9895e2f"
+    },
+    "player_identification/artifacts/pools/main.json": {
+     "bytes": 3253838,
+     "sha256": "10795531d22584546a64a759c47683bc9b947206dc7994b9ccb8991ac010733d"
+    },
+    "player_identification/artifacts/pools/train_meta.parquet": {
+     "bytes": 78175739,
+     "sha256": "f0db97f74bab2e7a902131cdd399745e4424b833cb0e3067791c7c05b252dae5"
+    }
+   }
+  },
+  "encoders": {
+   "asset": "player-artifacts-encoders.zip",
+   "bytes": 112662249,
+   "sha256": "902182a075035a47b2d93b7a392e76e9d7b092e3d375f16bd2bf3ef9da0789e5",
+   "purpose": "Optional: rebuild the E4 game embeddings from official SGF on CUDA",
+   "unpacked_bytes": 121430524,
+   "files": {
+    "player_identification/artifacts/encoders/seq64.pt": {
+     "bytes": 22350847,
+     "sha256": "e442d6e5d1c3e037dac4f3d18de4b75b00837f3237b5ed32bacf49a610707497"
+    },
+    "player_identification/artifacts/encoders/seq64_s2.pt": {
+     "bytes": 22350847,
+     "sha256": "777041f017d6187d6a91efb27ca437f88c7a99623cabd19c1a41c90e55df50da"
+    },
+    "player_identification/artifacts/encoders/wide.pt": {
+     "bytes": 38364415,
+     "sha256": "456621b322b02eaa20894168becbcfce01f0e7332b409bb8391c38b7e9039e53"
+    },
+    "player_identification/artifacts/encoders/wide_s2.pt": {
+     "bytes": 38364415,
+     "sha256": "ecd67059ee3e20765287445f5c3dbb4e30d43877a1a45b077a625af8d2d8804a"
+    }
+   }
+  }
+ }
+}
