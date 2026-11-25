@@ -40,36 +40,28 @@ AI CUP 2026 圍棋競賽的子任務一。
 ## 方法總覽
 
 ```mermaid
-flowchart TB
-  subgraph UP["上游：比賽期間訓練與抽取（本 repo 保存其輸出）"]
-    SGF["官方訓練棋譜<br/>100 萬盤、8,007 位玩家"]
-    E4["四個整盤棋局編碼器 E4<br/>64 個快照、ResNet＋SE、CosFace"]
-    ENG["KataGo／HumanSL<br/>逐手引擎特徵"]
-    FOX["Fox 棋譜預訓練的<br/>逐手模型"]
-    EXP["37 個專家分數矩陣<br/>每題 × 每位候選人"]
-    SGF --> E4
-    SGF --> ENG
-    SGF --> FOX
-    E4 --> EXP
-    ENG --> EXP
-    FOX --> EXP
+flowchart LR
+  IN["<b>保存的上游輸出</b><br/>37 個專家分數<br/>E4 棋局嵌入<br/>HumanSL 描述向量"]
+  subgraph NEW["新題 pub2／priv2"]
+    direction LR
+    B["37 專家<br/>線性融合"] --> C["每題取<br/>前 20 名"] --> D["列表式<br/>重排器"]
   end
-  subgraph REPO["本 repo 重新計算的部分（CPU）"]
-    OLD["舊題 pub／priv<br/>E4 原型相似度＋逐盤最佳兩局<br/>池內 Sinkhorn，τ = 0.05"]
-    BLEND["新題 pub2／priv2<br/>37 個專家線性融合<br/>1–2 盤與 3–5 盤各一組權重<br/>池內軟校正"]
-    SHORT["每題保留前 20 名候選"]
-    FEAT["短名單特徵<br/>專家分數題內標準化<br/>E4 逐盤 MaxSim、同色／異色比較<br/>HumanSL 逐手 MaxSim"]
-    RR["線性列表式 softmax 重排器<br/>三個種子平均"]
-    CSV["submission_player.csv<br/>1,600 題 × 前 5 名"]
-    BLEND --> SHORT --> FEAT --> RR --> CSV
-    OLD --> CSV
+  subgraph OLD["舊題 pub／priv"]
+    E["E4 相似度<br/>＋ Sinkhorn"]
   end
-  E4 -- "棋局嵌入" --> OLD
-  E4 -- "棋局嵌入" --> FEAT
-  EXP --> BLEND
-  EXP --> FEAT
-  ENG -- "HumanSL 描述向量" --> FEAT
+  IN --> B
+  IN --> E
+  D --> OUT["submission_player.csv<br/>每題前 5 名"]
+  E --> OUT
+  classDef kept fill:#f1efe8,stroke:#888780,color:#2c2c2a
+  classDef calc fill:#e6f1fb,stroke:#378add,color:#0c447c
+  classDef out fill:#e1f5ee,stroke:#1d9e75,color:#085041
+  class IN kept
+  class B,C,D,E calc
+  class OUT out
 ```
+
+灰色是比賽期間產生、本 repo 保存的上游輸出；藍色是本 repo 重新計算的步驟；綠色是最終提交檔。
 
 1. **棋局表徵（E4）**：每盤棋取目標玩家的 64 個快照，均勻分布在整盤。每個快照用寬度 128 或 192、10 個 SE block 的 ResNet 編碼成 256 維向量，以 CosFace 做單盤玩家分類。兩種寬度各訓練兩個種子，串接成 E4 嵌入。
 2. **舊題（pub／priv）**：候選人有 100 盤參考棋譜，資訊充足。用 E4 的原型餘弦與逐盤最佳兩局相似度計分，在候選池內做 Sinkhorn 校正後取前五名。
